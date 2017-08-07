@@ -1,3 +1,5 @@
+package creational;
+
 /**
  * Created by eugene on 03.08.17.
  */
@@ -33,7 +35,7 @@ class Car {
 
     @Override
     public String toString() {
-        return "Car{" +
+        return "creational.Car{" +
                 "name='" + name + '\'' +
                 ", transmission=" + transmission +
                 ", speed=" + speed +
@@ -106,25 +108,25 @@ class Director{
         return car;
     }
 }
-//class CarBuilder{
+//class creational.CarBuilder{
 //    String name;
-//    Transmission transmission;
+//    creational.Transmission transmission;
 //    int speed;
 //
-//    CarBuilder buildName(String name){
+//    creational.CarBuilder buildName(String name){
 //     this.name = name;
 //     return this;
 //    }
-//    CarBuilder buildTransmission(Transmission transmission){
+//    creational.CarBuilder buildTransmission(creational.Transmission transmission){
 //        this.transmission = transmission;
 //        return this;
 //    }
-//    CarBuilder buildSpeed(int speed){
+//    creational.CarBuilder buildSpeed(int speed){
 //        this.speed = speed;
 //        return this;
 //    }
-//    Car build(){
-//        Car car =new Car();
+//    creational.Car build(){
+//        creational.Car car =new creational.Car();
 //        car.setName(name);
 //        car.setTransmission(transmission);
 //        car.setSpeed(speed);

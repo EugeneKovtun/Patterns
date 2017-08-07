@@ -1,4 +1,4 @@
-import java.util.Date;
+package creational;
 
 /**
  * Created by eugene on 03.08.17.
@@ -50,28 +50,28 @@ interface DeviseFactory {
 class RuMouse implements Mouse {
     @Override
     public void click() {
-        System.out.println("RuMouse.click");
+        System.out.println("creational.RuMouse.click");
     }
 
     @Override
     public void doubleClick() {
-        System.out.println("RuMouse.doubleClick");
+        System.out.println("creational.RuMouse.doubleClick");
     }
 
     @Override
     public void scroll() {
-        System.out.println("RuMouse.scroll");
+        System.out.println("creational.RuMouse.scroll");
     }
 }
 class RuKeyboard implements Keyboard {
     @Override
     public void print() {
-        System.out.println("RuKeyboard.print");
+        System.out.println("creational.RuKeyboard.print");
     }
 
     @Override
     public void println() {
-        System.out.println("RuKeyboard.println");
+        System.out.println("creational.RuKeyboard.println");
     }
 }
 class RuTouchPad implements TouchPad {
@@ -84,28 +84,28 @@ class RuTouchPad implements TouchPad {
 class EnMouse implements Mouse {
     @Override
     public void click() {
-        System.out.println("EnMouse.click");
+        System.out.println("creational.EnMouse.click");
     }
 
     @Override
     public void doubleClick() {
-        System.out.println("EnMouse.doubleClick");
+        System.out.println("creational.EnMouse.doubleClick");
     }
 
     @Override
     public void scroll() {
-        System.out.println("EnMouse.scroll");
+        System.out.println("creational.EnMouse.scroll");
     }
 }
 class EnKeyboard implements Keyboard {
     @Override
     public void print() {
-        System.out.println("EnKeyboard.print");
+        System.out.println("creational.EnKeyboard.print");
     }
 
     @Override
     public void println() {
-        System.out.println("EnKeyboard.println");
+        System.out.println("creational.EnKeyboard.println");
     }
 }
 class EnTouchPad implements TouchPad {

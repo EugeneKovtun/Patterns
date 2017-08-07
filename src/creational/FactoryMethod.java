@@ -1,3 +1,5 @@
+package creational;
+
 import java.util.Date;
 
 /**
@@ -17,7 +19,7 @@ public class FactoryMethod {
         } else if (name.equalsIgnoreCase("rome")) {
             return new RomeWatchMaker();
         }
-        throw new IllegalArgumentException("Watch line" + name + "not found");
+        throw new IllegalArgumentException("creational.Watch line" + name + "not found");
     }
 }
 

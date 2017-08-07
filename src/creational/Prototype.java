@@ -1,3 +1,5 @@
+package creational;
+
 /**
  * Created by eugene on 03.08.17.
  */
@@ -29,7 +31,7 @@ class Human implements Copyable {
 
     @Override
     public String toString() {
-        return "Human{" +
+        return "creational.Human{" +
                 "age=" + age +
                 ", name='" + name + '\'' +
                 '}';
