@@ -1,4 +1,4 @@
-package structural;
+package structural.delegate;
 
 /**
  * Created by eugene on 07.08.17.
